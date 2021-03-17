@@ -37,10 +37,10 @@ ul li.active a{
 }
 
 .logo img{
-    float: left;
+    position:absolute;
+    left: 45%;
     width: 125px;
     height: auto;
-    margin-left: 740px;
 }
 
 .title{
@@ -53,4 +53,9 @@ ul li.active a{
 .title h1{
     color: black;
     font-size: 70px;
+}
+
+.container{
+    float: left;
+    margin-left: 25px;
 }
