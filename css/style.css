@@ -37,15 +37,15 @@ ul li.active a{
 }
 
 .logo img{
-    position:absolute;
-    left: 45%;
+    
+    
     width: 125px;
     height: auto;
 }
 
 .title{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
