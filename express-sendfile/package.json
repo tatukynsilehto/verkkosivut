@@ -12,5 +12,8 @@
     "Punapapu"
   ],
   "author": "Tatu Kynsilehto",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
