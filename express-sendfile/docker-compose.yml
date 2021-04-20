@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+    punapapu:
+        image: "tatukynsilehto/node-web-app"
+        restart: "unless-stopped"
+        container_name: "punapapu"
+        ports:
+            - "8080:8080"
+        build: .
