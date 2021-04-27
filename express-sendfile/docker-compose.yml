@@ -5,5 +5,5 @@ services:
         restart: "unless-stopped"
         container_name: "punapapu"
         ports:
-            - "8080:8080"
+            - "8010:8080"
         build: .
